@@ -2,9 +2,9 @@
 session_start();
 
 // DB接続設定
-$dsn = 'mysql:dbname=tb270158db;host=localhost';
-$user = 'tb-270158';
-$password = '4H2XxPAbH5';
+$dsn = 'mysql:dbname=データベース名;host=localhost';
+$user = 'ユーザー名';
+$password = 'パスワード';
 
 try {
     $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
