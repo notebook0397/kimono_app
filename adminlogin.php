@@ -10,8 +10,8 @@ $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_W
 $message = "";
 
 // 管理者アカウント
-$admin_user = '管理者';
-$admin_pass = 'qwer';
+$admin_user = '管理者名';
+$admin_pass = '管理者パスワード';
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $username = $_POST["user"] ?? '';
